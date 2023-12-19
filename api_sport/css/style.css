@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Afacad', sans-serif;
+    background: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.logo {
+    width: 100vw;
+    height: 50vh;
+}
+
+.nav {
+    display: block;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: white !important;
+}
+
+#carouselImages {
+    vertical-align: middle;
+    height: 100vh;
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 80vh;
+}
+
+/* cartas peliculas */
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 15vw;
+    height: 50vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .col-lg-4 {
+        flex: 0 0 auto;
+        height: 50vh;
+        width: 70vw;
+    }
+
+}
+
+.row {
+    padding: 19px;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    justify-content: space-around;
+}
